@@ -28,7 +28,7 @@ class Controller extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $nombreControlador = $input->getArgument($this->argumentoComando);
-        $modelo = fopen('app/controllers/' . $nombreControlador . "Controller.php", "w");
+        $modelo = fopen('app/Controllers/' . $nombreControlador . "Controller.php", "w");
         if ($modelo == null) {
             $output->writeln("<error>Ocurrio un error al crear el controlador.</error>");
             return Command::FAILURE;

@@ -21,8 +21,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Controllers\\": "app/controllers/",
-      "Models\\": "app/models/"
+      "Controllers\\": "app/Controllers/",
+      "Models\\": "app/Models/"
     },
     "classmap": [
       "app/Console",

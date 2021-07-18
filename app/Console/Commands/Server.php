@@ -18,7 +18,7 @@ class Server extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        exec('php -S localhost:8000');
+        exec('php -S 127.0.0.1:8000');
         return Command::SUCCESS;
     }
 }

@@ -28,7 +28,7 @@ class Model extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $nombreModelo = $input->getArgument($this->argumentoComando);
-        $modelo = fopen('app/models/' . $nombreModelo . ".php", "w");
+        $modelo = fopen('app/MModels/' . $nombreModelo . ".php", "w");
         if ($modelo == null) {
             $output->writeln("<error>Ocurrio un error al crear el modelo.</error>");
             return Command::FAILURE;
