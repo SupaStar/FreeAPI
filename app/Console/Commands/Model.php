@@ -28,7 +28,7 @@ class Model extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $nombreModelo = $input->getArgument($this->argumentoComando);
-        $modelo = fopen('app/MModels/' . $nombreModelo . ".php", "w");
+        $modelo = fopen('app/Models/' . $nombreModelo . ".php", "w");
         if ($modelo == null) {
             $output->writeln("<error>Ocurrio un error al crear el modelo.</error>");
             return Command::FAILURE;
@@ -41,7 +41,7 @@ use \Illuminate\Database\Eloquent\Model;
 
 class " . $nombreModelo . " extends Model
 {
-    protected $" . $nombreModelo . " = '" . $nombreModelo . "';
+    protected \$table = '" . $nombreModelo . "';
 }";
         fwrite($modelo, $contenido);
         fclose($modelo);
