@@ -37,6 +37,7 @@ class Controller extends Command
 
 namespace Controllers;
 
+use Illuminate\Http\Request;
 class " . $nombreControlador . "Controller
 {
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8619acd437065d8435aebc4d6f653a19",
+    "content-hash": "038d39249a5215dc9502d855e28bfbf2",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -100,64 +100,6 @@
                 }
             ],
             "time": "2020-05-29T15:13:26+00:00"
-        },
-        {
-            "name": "ecoal95/php-router",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/emilio/php-router.git",
-                "reference": "55ae2f3a6417a2327715402edb7b404001c5a04f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/emilio/php-router/zipball/55ae2f3a6417a2327715402edb7b404001c5a04f",
-                "reference": "55ae2f3a6417a2327715402edb7b404001c5a04f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "ext-xdebug": "*",
-                "phpdocumentor/phpdocumentor": "2.8.*",
-                "phpunit/phpunit": "4.8.*",
-                "squizlabs/php_codesniffer": "2.*"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Router": "src"
-                },
-                "files": [
-                    "src/php-5.3-support.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Emilio Cobos Álvarez",
-                    "email": "emiliocobos@usal.es",
-                    "homepage": "http://emiliocobos.net",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Minimal routing library",
-            "homepage": "https://github.com/ecoal95/php-router",
-            "keywords": [
-                "route",
-                "router",
-                "routing"
-            ],
-            "support": {
-                "issues": "https://github.com/emilio/php-router/issues",
-                "source": "https://github.com/emilio/php-router/tree/v1.0.3"
-            },
-            "time": "2015-08-23T22:20:07+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -391,7 +333,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v8.50.0",
+            "version": "v8.51.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -558,16 +500,16 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v8.50.0",
+            "version": "v8.51.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
-                "reference": "bd2941d4d55f5d357b203dc2ed81ac5c138593dc"
+                "reference": "79b76fb37748584eaa21c569b001a6ccbc13c2b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/events/zipball/bd2941d4d55f5d357b203dc2ed81ac5c138593dc",
-                "reference": "bd2941d4d55f5d357b203dc2ed81ac5c138593dc",
+                "url": "https://api.github.com/repos/illuminate/events/zipball/79b76fb37748584eaa21c569b001a6ccbc13c2b5",
+                "reference": "79b76fb37748584eaa21c569b001a6ccbc13c2b5",
                 "shasum": ""
             },
             "require": {
@@ -609,7 +551,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-04-06T19:21:57+00:00"
+            "time": "2021-07-14T15:12:04+00:00"
         },
         {
             "name": "illuminate/filesystem",
@@ -675,16 +617,16 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v8.50.0",
+            "version": "v8.51.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "2961f4c916281302ba39a80df864a6c10579c54a"
+                "reference": "42d6cf08120492cac9ba84913f05a3f4f3516c0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/2961f4c916281302ba39a80df864a6c10579c54a",
-                "reference": "2961f4c916281302ba39a80df864a6c10579c54a",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/42d6cf08120492cac9ba84913f05a3f4f3516c0a",
+                "reference": "42d6cf08120492cac9ba84913f05a3f4f3516c0a",
                 "shasum": ""
             },
             "require": {
@@ -729,7 +671,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-07-06T13:48:59+00:00"
+            "time": "2021-07-19T18:24:28+00:00"
         },
         {
             "name": "illuminate/macroable",
@@ -827,16 +769,16 @@
         },
         {
             "name": "illuminate/routing",
-            "version": "v8.50.0",
+            "version": "v8.51.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/routing.git",
-                "reference": "533a791bb3f5ae551b61b2701251db2ebe2d068f"
+                "reference": "e12acd2f0ffc07321a45def5876e41d164a075bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/routing/zipball/533a791bb3f5ae551b61b2701251db2ebe2d068f",
-                "reference": "533a791bb3f5ae551b61b2701251db2ebe2d068f",
+                "url": "https://api.github.com/repos/illuminate/routing/zipball/e12acd2f0ffc07321a45def5876e41d164a075bc",
+                "reference": "e12acd2f0ffc07321a45def5876e41d164a075bc",
                 "shasum": ""
             },
             "require": {
@@ -886,7 +828,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-05-20T18:45:12+00:00"
+            "time": "2021-07-16T12:37:32+00:00"
         },
         {
             "name": "illuminate/session",
@@ -5239,9 +5181,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ecoal95/php-router": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
